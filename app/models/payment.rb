@@ -16,6 +16,6 @@ class Payment < ApplicationRecord
 		Stripe::Charge.create customer: customer.id,
 													amount: 1000,
 													description: 'Premuim',
-													currentcy: 'usd'
+													currency: 'usd'
 	end
 end

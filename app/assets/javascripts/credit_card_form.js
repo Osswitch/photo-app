@@ -39,6 +39,7 @@ $(document).on('ready turbolinks:load', function(){
 
 		$form.find("input[type=submit]").prop("disabled", false);
 
+
 		} else {
 
 		token = response.id;
